@@ -1,0 +1,39 @@
+﻿@model List<Lesson>
+@{
+    ViewData["Title"] = "Dersler";
+    Layout = "~/Views/Shared/_AdminUI.cshtml";
+    int count = 0;
+}
+
+<h1 class="text-center">Mevcut Derslerimiz</h1>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Ders Resimi</th>
+            <th>Ders Adı</th>
+            <th>Ders Zamanı</th>
+            <th>Sil </th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var item in Model)
+        {
+            <tr>
+                @{
+                    count += 1;
+                }
+                <th scope="row">@count</th>
+                <td>@item.Name</td>
+                <td><img src="@item.img_Url" /></td>
+                <td>@item.lesson_time</td>
+                <td><a href="/AdminPages/DersSil/@item.LessonId" class="btn btn-outline-danger">Sil</a></td>
+               
+            </tr>
+        }
+
+    </tbody>
+</table>
+<a href="/AdminPages/DersEkle" class="btn btn-outline-primary">Yeni Ders Ekle</a>

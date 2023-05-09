@@ -1,0 +1,157 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MusicLessonProject
+build_property.RootNamespace = MusicLessonProject
+build_property.ProjectDir = C:\Users\gizem\OneDrive\Masaüstü\musicSln\MusicLessonProject\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\gizem\OneDrive\Masaüstü\musicSln\MusicLessonProject
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/gizem/OneDrive/Masaüstü/musicSln/MusicLessonProject/Views/AboutPartial/_HeaderPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRQYXJ0aWFsXF9IZWFkZXJQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gizem/OneDrive/Masaüstü/musicSln/MusicLessonProject/Views/About/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gizem/OneDrive/Masaüstü/musicSln/MusicLessonProject/Views/AdminPages/DersEkle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5QYWdlc1xEZXJzRWtsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gizem/OneDrive/Masaüstü/musicSln/MusicLessonProject/Views/AdminPages/Dersler.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5QYWdlc1xEZXJzbGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gizem/OneDrive/Masaüstü/musicSln/MusicLessonProject/Views/AdminPages/EgitmenEkle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5QYWdlc1xFZ2l0bWVuRWtsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gizem/OneDrive/Masaüstü/musicSln/MusicLessonProject/Views/AdminPages/Eğitmenler.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5QYWdlc1xFxJ9pdG1lbmxlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gizem/OneDrive/Masaüstü/musicSln/MusicLessonProject/Views/AdminPages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5QYWdlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gizem/OneDrive/Masaüstü/musicSln/MusicLessonProject/Views/AdminPartial/HeaderPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5QYXJ0aWFsXEhlYWRlclBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gizem/OneDrive/Masaüstü/musicSln/MusicLessonProject/Views/AdminPartial/NavBarPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5QYXJ0aWFsXE5hdkJhclBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gizem/OneDrive/Masaüstü/musicSln/MusicLessonProject/Views/AdminPartial/ScriptPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5QYXJ0aWFsXFNjcmlwdFBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gizem/OneDrive/Masaüstü/musicSln/MusicLessonProject/Views/AdminPartial/SideBarPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5QYXJ0aWFsXFNpZGVCYXJQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gizem/OneDrive/Masaüstü/musicSln/MusicLessonProject/Views/Admin/SignIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU2lnbkluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gizem/OneDrive/Masaüstü/musicSln/MusicLessonProject/Views/Bildirim/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlsZGlyaW1cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gizem/OneDrive/Masaüstü/musicSln/MusicLessonProject/Views/Bildirim/OkunanMesaj.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlsZGlyaW1cT2t1bmFuTWVzYWouY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gizem/OneDrive/Masaüstü/musicSln/MusicLessonProject/Views/Bildirim/OkunmayanMesaj.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlsZGlyaW1cT2t1bm1heWFuTWVzYWouY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gizem/OneDrive/Masaüstü/musicSln/MusicLessonProject/Views/Bildirim/OpenMessage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlsZGlyaW1cT3Blbk1lc3NhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gizem/OneDrive/Masaüstü/musicSln/MusicLessonProject/Views/Contact/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gizem/OneDrive/Masaüstü/musicSln/MusicLessonProject/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gizem/OneDrive/Masaüstü/musicSln/MusicLessonProject/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gizem/OneDrive/Masaüstü/musicSln/MusicLessonProject/Views/Iletisim/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSWxldGlzaW1cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gizem/OneDrive/Masaüstü/musicSln/MusicLessonProject/Views/LayoutPartial/_FooterPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF5b3V0UGFydGlhbFxfRm9vdGVyUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gizem/OneDrive/Masaüstü/musicSln/MusicLessonProject/Views/LayoutPartial/_HeaderPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF5b3V0UGFydGlhbFxfSGVhZGVyUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gizem/OneDrive/Masaüstü/musicSln/MusicLessonProject/Views/LayoutPartial/_NavbarPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF5b3V0UGFydGlhbFxfTmF2YmFyUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gizem/OneDrive/Masaüstü/musicSln/MusicLessonProject/Views/Shared/Components/_Lessons/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0xlc3NvbnNcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gizem/OneDrive/Masaüstü/musicSln/MusicLessonProject/Views/Shared/Components/_Teachers/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1RlYWNoZXJzXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gizem/OneDrive/Masaüstü/musicSln/MusicLessonProject/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gizem/OneDrive/Masaüstü/musicSln/MusicLessonProject/Views/Shared/_AdminUI.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pblVJLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gizem/OneDrive/Masaüstü/musicSln/MusicLessonProject/Views/Shared/_MUsicUI.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NVXNpY1VJLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gizem/OneDrive/Masaüstü/musicSln/MusicLessonProject/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gizem/OneDrive/Masaüstü/musicSln/MusicLessonProject/Views/StudysPartial/_HeaderPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZHlzUGFydGlhbFxfSGVhZGVyUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gizem/OneDrive/Masaüstü/musicSln/MusicLessonProject/Views/Studys/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZHlzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gizem/OneDrive/Masaüstü/musicSln/MusicLessonProject/Views/Studys/LessonDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZHlzXExlc3NvbkRldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gizem/OneDrive/Masaüstü/musicSln/MusicLessonProject/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gizem/OneDrive/Masaüstü/musicSln/MusicLessonProject/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gizem/OneDrive/Masaüstü/musicSln/MusicLessonProject/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-9j3f0autnk

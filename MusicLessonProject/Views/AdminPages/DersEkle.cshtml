@@ -1,0 +1,41 @@
+﻿@model Lesson
+@{
+    ViewData["Title"] = "DersEkle";
+    Layout = "~/Views/Shared/_AdminUI.cshtml";
+}
+<br />
+<h1 class="text-center">Ders Ekleme Alanı</h1>
+
+<form method="post" class="m-5" enctype="multipart/form-data">
+    <div class="form-group">
+        @Html.Label("Resim Url: ")
+        <input type="text" class="form-control" asp-for="img_Url" required />
+    </div>
+
+    <br />
+    <div class="form-group">
+        @Html.Label("Dersin Adı: ")
+        <input type="text" class="form-control" asp-for="Name" required />
+    </div>
+
+    <br />
+    <div class="form-group">
+        @Html.Label("Ders Açıklaması: ")
+        <textarea cols="30" rows="5" class="form-control" asp-for="content"></textarea>
+    </div>
+
+    <br />
+    <div class="form-group">
+        @Html.Label("Dersin Zamanı: ")
+        <input type="datetime-local" class="form-control" asp-for="lesson_time" required />
+    </div>
+
+    <br />
+    <div class="form-group">
+        @Html.Label("Dersin Hoca Numarası: ")
+        @Html.DropDownListFor(x=>x.TeacherId,(List<SelectListItem>)ViewBag.v,new {@class="form-control"})
+        
+    </div>
+    <br />
+    <button class="btn  btn-outline-primary">oluştur</button>
+</form>

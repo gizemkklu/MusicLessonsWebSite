@@ -1,0 +1,39 @@
+﻿@model AdminLogin
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignIn</title>
+    <link rel="stylesheet" href="~/login2/style.css">
+</head>
+<body>
+    <div class="background-wrap">
+        <div class="background"></div>
+    </div>
+
+    <form id="accesspanel" method="post" action="/Admin/SignIn">
+        <h1 id="litheader">Admin Girişi</h1>
+        <div class="inset">
+            <p>
+                <input type="text" asp-for="Name" placeholder="Kullanıcı adınızı giriniz" required>
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </p>
+            <p>
+                <input type="password" asp-for="Password" placeholder="Şifrenizi Giriniz" required>
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </p>
+
+            <input class="loginLoginValue" type="hidden" name="service" value="login" />
+        </div>
+        <p class="p-container">
+            <input type="submit" name="Login" id="go" value="Giriş">
+        </p>
+    </form>
+    <script src="~/login2/index.js"></script>
+</body>
+</html>

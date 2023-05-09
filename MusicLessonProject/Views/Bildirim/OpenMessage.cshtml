@@ -1,0 +1,16 @@
+﻿@model Contact
+@{
+    ViewData["Title"] = "OpenMessage";
+    Layout = "~/Views/Shared/_AdminUI.cshtml";
+}
+
+<h1 class="text-center mt-3">Seçilen Mesaj Detayları</h1>
+
+<div class="m-5">
+    <p><strong class="mr-2">Gönderenin Adı Soyadı: </strong>  @Model.Name  @Model.Surname</p>
+    <p><strong class="mr-2">Gönderenin Mail Adresi: </strong>  @Model.Mail  </p>
+    <p><strong class="mr-2">Gönderenin Numarası: </strong>  @Model.Phone  </p>
+    <p><strong class="mr-2">Gönderim Tarihi : </strong>  @Model.MessageDate</p>
+    <p><strong class="mr-2">Mesaj Konusu: </strong>  @Model.Subject</p>
+    <p><strong class="mr-2">Mesaj içeriği: </strong>   @Model.MessageContent</p>
+</div>

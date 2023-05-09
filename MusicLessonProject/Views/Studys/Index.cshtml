@@ -1,0 +1,8 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_MUsicUI.cshtml";
+}
+
+@await Html.PartialAsync("/Views/StudysPartial/_HeaderPartial.cshtml")
+@await Component.InvokeAsync("_Lessons")

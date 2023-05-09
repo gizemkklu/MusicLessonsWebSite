@@ -1,0 +1,107 @@
+﻿@model Lesson
+@{
+    ViewData["Title"] = "LessonDetails";
+    Layout = "~/Views/Shared/_MUsicUI.cshtml";
+}
+
+<!doctype html>
+<html lang="en">
+
+
+
+<body>
+
+    <main>
+        <header class="site-header d-flex flex-column justify-content-center align-items-center">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-12 col-12 text-center">
+
+                        <h2 class="mb-0">Ders Detayları</h2>
+                    </div>
+
+                </div>
+            </div>
+        </header>
+
+
+        <section class="latest-podcast-section section-padding pb-0" id="section_2">
+            <div class="container">
+                <div class="row justify-content-center">
+
+                    <div class="col-lg-10 col-12">
+                        <div class="section-title-wrap mb-5">
+                            <h4 class="section-title">Detaylar</h4>
+                        </div>
+
+                        <div class="row">
+                          
+                            
+                                <div class="col-lg-3 col-12">
+                                    <div class="custom-block-icon-wrap">
+                                        <div class="custom-block-image-wrap custom-block-image-detail-page">
+                                            <img src="@Model.img_Url"
+                                                 class="custom-block-image img-fluid" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-9 col-12">
+                                    <div class="custom-block-info">
+                                        <div class="custom-block-top d-flex mb-1">
+
+
+                                            <small>
+                                                <i class="bi-clock-fill custom-icon"></i>
+                                            @Model.lesson_time.ToString("f")
+                                            </small>
+
+                                           
+                                        </div>
+
+                                        <h2 class="mb-2">@Model.Name</h2>
+
+                                    <p>@Model.content</p>
+                                               
+                                        
+
+                                       
+
+                                        <div class="profile-block profile-detail-block d-flex flex-wrap align-items-center mt-5">
+                                            <div class="d-flex mb-3 mb-lg-0 mb-md-0">
+                                                
+
+                                            <p>
+                                                <strong>@Model.Name </strong>
+                                                Dersimiz hakkında daha fazla bilgi almak ister misiniz
+                                            </p>    
+                                        </div>
+
+                                            <ul class="social-icon ms-lg-auto ms-md-auto">
+                                                <li class="social-icon-item">
+                                                    <a asp-controller="Iletisim" asp-action="Index" class="btn btn-outline-primary">Bilgi Al</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+
+    </main>
+
+
+
+
+
+</body>
+
+</html>

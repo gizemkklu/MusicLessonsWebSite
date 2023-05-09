@@ -1,0 +1,37 @@
+﻿@model EğitmenEkleViewModel
+@{
+    ViewData["Title"] = "EgitmenEkle";
+    Layout = "~/Views/Shared/_AdminUI.cshtml";
+}
+
+<br />
+<h1 class="text-center">Eğitmen Ekleme Alanı</h1>
+
+<form method="post" class="m-5" enctype="multipart/form-data">
+    <div class="form-group">
+        @Html.Label("Resim Url: ")
+        <input type="file" class="form-control" asp-for="img_Url" required />
+    </div>
+
+    <br />
+    <div class="form-group">
+        @Html.Label("Eğitmen Adı: ")
+        <input type="text" class="form-control" asp-for="Name" required />
+    </div>
+
+    <br />
+    <div class="form-group">
+        @Html.Label("Eğitmen Soyadı: ")
+        <input type="text" class="form-control" asp-for="Surname" required />
+    </div>
+
+    <br />
+    <div class="form-group">
+        @Html.Label("Eğitmen Alanı: ")
+        <input type="text" class="form-control" asp-for="About" required />
+    </div>
+
+    <br />
+
+    <button class="btn  btn-outline-primary">oluştur</button>
+</form>
